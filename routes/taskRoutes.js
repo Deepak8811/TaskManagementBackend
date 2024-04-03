@@ -14,7 +14,7 @@ router.get('/test',auth, (req, res) => {
 // CRUD tasks for authenticated users
 
 
-//create a task
+//create a task using post  method
 router.post('/', auth, async (req, res) => {
    try{
     // description, completed from req.body
